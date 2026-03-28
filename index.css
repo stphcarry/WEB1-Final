@@ -1,0 +1,286 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: "Poppins", sans-serif;
+    background: url(https://i.pinimg.com/originals/c8/5d/d7/c85dd7165196e75ebc9987bfe09806d5.gif) center/cover; 
+    color: white;
+
+}
+
+/* NAVBAR */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: #f4a261;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url(cover.webp) no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boang{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.hero-text{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.daniel{
+    margin-bottom: 60px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ccc;
+    margin: 10px 0;
+}
+
+/* BUTTON */
+.btn {
+  
+    background: #f4a261;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    text-decoration: none;
+ 
+
+}
+
+.btn:hover {
+    background: #e76f51;
+    transform: scale(1.05);
+}
+
+/* CONTENT */
+.content{
+   padding: 100px 20px;
+   text-align: center;
+}
+
+.content h1{
+    margin-bottom: 40px;
+}
+
+/* SONG BOXES */
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box div{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    width: 280px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.box div:hover{
+    transform: translateY(-10px);
+    background: rgba(255,255,255,0.1);
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+/* WORKS */
+.works{
+    padding: 100px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.gallery .albums{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.albums div{
+    height: 300px;
+    width: 220px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s;
+}
+
+.albums div:hover{
+    transform: scale(1.08);
+}
+
+/* YOUR IMAGES */
+.lover {
+    background: url(https://i.pinimg.com/1200x/77/b9/7a/77b97ac48cf4cf721be584a60662b0b9.jpg) center/cover;
+}
+
+.reputation {
+    background: url(https://i.pinimg.com/736x/70/6b/6a/706b6a18c3ba3df1d1ec5803024693b9.jpg) center/cover;
+}
+
+.showgirl {
+    background: url(https://i.pinimg.com/736x/c2/ea/88/c2ea8864925d463c70a472a73616d14b.jpg) center/cover;
+}
+
+/* ABOUT */
+.about {
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url(bg2.webp) center/cover;
+    text-align: center;
+}
+
+.about-text{
+    max-width: 600px;
+    margin: auto;
+}
+
+.about-text h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.about-text p{
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.about-text button{
+    background: #f4a261;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* CONTACT */
+.contact {
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url(https://i.pinimg.com/1200x/de/80/5a/de805a7e410fd368422a090c58b56e9b.jpg) center/cover;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: auto;
+    padding: 35px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+.contact-content p{
+    margin-bottom: 20px;
+}
+
+.btnmsg{
+    margin-bottom: 20px;
+}
+
+.contact h2{
+    margin-bottom: 10px;
+}
+
+.contact p{
+    color: #ccc;
+}
+
+/* FORM */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button{
+    background: #f4a261;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #e76f51;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #000;
+}
+
+footer p{
+    color: #aaa;
+}
