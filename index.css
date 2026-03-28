@@ -1,14 +1,12 @@
-/* GOOGLE FONT */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY */
 body{
     font-family: "Poppins", sans-serif;
     background: url(https://i.pinimg.com/originals/c8/5d/d7/c85dd7165196e75ebc9987bfe09806d5.gif) center/cover; 
@@ -16,7 +14,6 @@ body{
 
 }
 
-/* NAVBAR */
 header{
     position: fixed;
     width: 100%;
@@ -54,7 +51,6 @@ nav ul li a:hover{
     color: #f4a261;
 }
 
-/* HERO */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url(cover.webp) no-repeat center/cover;
@@ -90,7 +86,6 @@ nav ul li a:hover{
     margin: 10px 0;
 }
 
-/* BUTTON */
 .btn {
   
     background: #f4a261;
@@ -108,7 +103,6 @@ nav ul li a:hover{
     transform: scale(1.05);
 }
 
-/* CONTENT */
 .content{
    padding: 100px 20px;
    text-align: center;
@@ -118,7 +112,6 @@ nav ul li a:hover{
     margin-bottom: 40px;
 }
 
-/* SONG BOXES */
 .box{
     display: flex;
     justify-content: center;
@@ -144,7 +137,6 @@ h2{
     margin-bottom: 10px;
 }
 
-/* WORKS */
 .works{
     padding: 100px 20px;
     text-align: center;
@@ -172,7 +164,6 @@ h2{
     transform: scale(1.08);
 }
 
-/* YOUR IMAGES */
 .lover {
     background: url(https://i.pinimg.com/1200x/77/b9/7a/77b97ac48cf4cf721be584a60662b0b9.jpg) center/cover;
 }
@@ -185,7 +176,6 @@ h2{
     background: url(https://i.pinimg.com/736x/c2/ea/88/c2ea8864925d463c70a472a73616d14b.jpg) center/cover;
 }
 
-/* ABOUT */
 .about {
     padding: 100px 20px;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
@@ -217,7 +207,6 @@ h2{
     cursor: pointer;
 }
 
-/* CONTACT */
 .contact {
     padding: 100px 20px;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
@@ -248,7 +237,6 @@ h2{
     color: #ccc;
 }
 
-/* FORM */
 form{
     display: flex;
     flex-direction: column;
@@ -274,7 +262,6 @@ button:hover{
     background: #e76f51;
 }
 
-/* FOOTER */
 footer{
     text-align: center;
     padding: 20px;
